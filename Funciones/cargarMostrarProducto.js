@@ -1,4 +1,4 @@
-import { agregarInfoProducto } from "./agregarInfoProducto";
+import { agregarInfoProducto } from "./agregarInfoProducto.js";
 
 export function cargarMostrarProducto(productos, p, scrollPosition){
     console.log("Mostrando");
