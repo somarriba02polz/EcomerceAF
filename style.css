@@ -19,7 +19,7 @@ body {
   gap: 10px;
   padding: 5px 20px;
   background-color: var(--bodycolor);
-  height: 3000px;
+  height: max-content;
 }
 
 .carrito {
