@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/EcomerceAF/' : '/', // Cambia 'EcomerceAF' por el nombre de tu repo
+  base: '/EcomerceAF/', // Esto asegura que las rutas incluyan el subdirectorio correcto
 });
