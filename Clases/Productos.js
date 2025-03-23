@@ -15,7 +15,7 @@ export class Productos {
             return objJson;
         }
         catch(e){
-            console.log(e);
+            console.error(e);
         }
     }
 
