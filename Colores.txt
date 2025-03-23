@@ -1,0 +1,8 @@
+paletad de colores Ecomerce:
+
+
+.color1 {color: #dbc4ff;}
+.color2 {color: #ffdeff;}
+.color3 {color: #1c1833;}
+.color4 {color: #78767c;}
+.color5 {color: #e2e2e2;}
