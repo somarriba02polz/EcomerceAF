@@ -9,8 +9,10 @@ export class Productos {
             if(!response.ok){
                 throw new Error(`Ocurrio Error ok status: ${response.status}`);
             }
-            // return await response.json();
-            return await response.json()
+            
+            const objJson = await response.json();
+            console.log(objJson);
+            return objJson;
         }
         catch(e){
             console.log(e);
